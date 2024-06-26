@@ -17,7 +17,7 @@ class Program
         Console.Write("Введите смещение: ");
         int numberOfShift = Convert.ToInt32(Console.ReadLine());
 
-        for (int j = 0; j < numberOfShift; j++)
+        for (int j = 0; j < numberOfShift % array.Length; j++)
         {
             int tempElement = array[0];
 
